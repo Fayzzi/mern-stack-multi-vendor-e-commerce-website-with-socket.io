@@ -3,7 +3,7 @@ import DashboardSidebar from "../SideBar/DashboardSidebar";
 import { Link } from "react-router-dom";
 import { Button } from "@material-ui/core";
 import { AiOutlineEye } from "react-icons/ai";
-import { DataGrid } from "@material-ui/data-grid";
+import { DataGrid } from "@mui/x-data-grid";
 import { useDispatch, useSelector } from "react-redux";
 import { useEffect } from "react";
 import { getAllShopOrders } from "../../../../Components/Redux/Reducers/Allorders";
@@ -41,21 +41,12 @@ export default function AllshopOrders() {
       minWidth: 130,
       flex: 1,
     },
-    {
-      field: "id",
-      headerName: "Product Id",
-      minWidth: 100,
-      flex: 1,
-    },
+
     {
       field: "status",
       headerName: "Status",
       minWidth: 130,
       flex: 0.7,
-      cellClassName: (params) =>
-        params.getValue(params.id, "status") === "Delivered"
-          ? "greenColor"
-          : "redColor",
     },
     {
       field: "itemsQty",
@@ -66,7 +57,7 @@ export default function AllshopOrders() {
     },
     {
       field: "preview",
-      headerName: "",
+      headerName: "preview",
       type: "number",
       sortable: false,
       minWidth: 80,
