@@ -13,7 +13,7 @@ export default function OpenCart({ setopen }) {
   }, 0);
 
   return (
-    <div className="fixed top-0 left-0 w-full h-screen z-[40] bg-[#0000004b]">
+    <div className="fixed top-0 left-0 w-full h-screen z-[40]  backdrop-blur-sm bg-white/30 ">
       <div className="fixed top-0 right-0 min-h-full w-[35%] bg-white flex flex-col justify-between">
         <div>
           <div className="flex w-full justify-end pt-5 pr-5">

@@ -10,7 +10,7 @@ import Footer from "../../Components/Layout/Footer/Footer";
 
 export default function HomePage() {
   return (
-    <div>
+    <div className="">
       <Header activeHeading={1} />
       <Hero />
       <Categories />

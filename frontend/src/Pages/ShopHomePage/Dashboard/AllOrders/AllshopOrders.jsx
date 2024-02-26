@@ -20,48 +20,42 @@ export default function AllshopOrders() {
     {
       field: "id",
       headerName: "Order Id",
-      minWidth: 100,
-      flex: 1,
+      width: 150,
     },
     {
       field: "p_name",
       headerName: "Product Name",
-      minWidth: 170,
-      flex: 1,
+      width: 150,
     },
     {
       field: "price",
       headerName: "Product Price",
-      minWidth: 130,
-      flex: 1,
+      width: 150,
     },
     {
       field: "shipment",
       headerName: "Shipment Price",
-      minWidth: 130,
-      flex: 1,
+      width: 150,
     },
 
     {
       field: "status",
       headerName: "Status",
-      minWidth: 130,
-      flex: 0.7,
+      width: 150,
     },
     {
       field: "itemsQty",
       headerName: "Items Qty",
       type: "number",
-      minWidth: 130,
-      flex: 0.7,
+      width: 150,
     },
     {
       field: "preview",
       headerName: "preview",
       type: "number",
       sortable: false,
-      minWidth: 80,
-      flex: 0.8,
+      width: 80,
+
       renderCell: (params) => {
         const d = params.row.id;
 
@@ -105,14 +99,11 @@ export default function AllshopOrders() {
         <div className="800px:w-[280px] w-fit">
           <DashboardSidebar active={2} />
         </div>
-        <div className="w-full min-h-screen text-white ">
-          <DataGrid
-            rows={rows}
-            columns={coloums}
-            pageSize={10}
-            disableSelectionOnClick
-            autoHeight
-          />
+        <div className="mx-auto w-[70%] lg:w-[70%]">
+          <h1 className="text-3xl p-3 my-4 font-bold mb-4">All Orders</h1>
+          <div style={{ height: 400, width: "100%" }}>
+            <DataGrid rows={rows} columns={coloums} pageSize={5} />
+          </div>
         </div>
       </div>
     </div>
