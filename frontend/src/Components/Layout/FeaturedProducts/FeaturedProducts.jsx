@@ -1,5 +1,3 @@
-import React, { useEffect } from "react";
-import { productData } from "../../../static/data";
 import ProductCard from "../ProductCard/ProductCard";
 import { useSelector } from "react-redux";
 import Loader from "./../../../Components/Loader/Loader";

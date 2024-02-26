@@ -1,5 +1,3 @@
-import styles from "../../../Styles/Styles";
-
 const CheckoutSteps = ({ active }) => {
   console.log(active);
   return (

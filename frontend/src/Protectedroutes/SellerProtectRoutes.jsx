@@ -3,9 +3,7 @@ import { Navigate } from "react-router-dom";
 import Loader from "../Components/Loader/Loader";
 
 const SellerProtectedRoutes = ({ children }) => {
-  const { isSeller, seller, isSellerLoading } = useSelector(
-    (state) => state.seller
-  );
+  const { isSeller, isSellerLoading } = useSelector((state) => state.seller);
   if (isSellerLoading === true) {
     return <Loader />;
   }

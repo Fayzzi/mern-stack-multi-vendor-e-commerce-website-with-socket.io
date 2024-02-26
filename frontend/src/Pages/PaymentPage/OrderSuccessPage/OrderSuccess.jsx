@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 import Lottie from "react-lottie";
 import animationData from "./../../../assets/Animations/107043-success.json";
 import Header from "../../../Components/Layout/Header/Header";

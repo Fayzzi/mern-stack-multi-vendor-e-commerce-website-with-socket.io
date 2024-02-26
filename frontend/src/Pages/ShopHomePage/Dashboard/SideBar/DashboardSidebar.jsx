@@ -1,16 +1,14 @@
-import React from "react";
 import { Link } from "react-router-dom";
 import { RxDashboard } from "react-icons/rx";
 import { FiShoppingBag } from "react-icons/fi";
 import { AiOutlineGift } from "react-icons/ai";
 import { MdOutlineLocalOffer } from "react-icons/md";
 import { VscNewFile } from "react-icons/vsc";
-import { CiMoneyBill, CiSettings } from "react-icons/ci";
+import { CiSettings } from "react-icons/ci";
 import { BiMessageSquareDetail } from "react-icons/bi";
 import { HiOutlineReceiptRefund } from "react-icons/hi";
 import { PiFilesDuotone } from "react-icons/pi";
 import { LuFileUp } from "react-icons/lu";
-import { FaRegCreditCard } from "react-icons/fa";
 import { FaChartArea } from "react-icons/fa";
 
 export default function DashboardSidebar({ active }) {

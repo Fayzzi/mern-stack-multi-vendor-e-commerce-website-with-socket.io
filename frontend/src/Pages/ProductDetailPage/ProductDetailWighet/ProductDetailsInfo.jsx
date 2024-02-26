@@ -5,7 +5,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { getEveryShopProducts } from "../../../Components/Redux/Reducers/SellerReducer";
 import PropTypes from "prop-types";
 import { getAllShopEvents } from "../../../Components/Redux/Reducers/EventReducer";
-import { AiFillStar, AiOutlineStar } from "react-icons/ai";
+// import { AiFillStar, AiOutlineStar } from "react-icons/ai";
 import Ratings from "./RatingsComponent/Ratings";
 
 export default function ProductDetailsInfo({ eventData, data }) {

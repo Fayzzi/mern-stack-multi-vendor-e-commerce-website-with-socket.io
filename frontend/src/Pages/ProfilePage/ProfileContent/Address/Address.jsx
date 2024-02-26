@@ -1,9 +1,8 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { AiOutlineDelete } from "react-icons/ai";
 import { useDispatch, useSelector } from "react-redux";
 import { RxCross1 } from "react-icons/rx";
 import { Country, State } from "country-state-city";
-import axios from "axios";
 import { toast } from "react-toastify";
 import {
   deleteAddress,

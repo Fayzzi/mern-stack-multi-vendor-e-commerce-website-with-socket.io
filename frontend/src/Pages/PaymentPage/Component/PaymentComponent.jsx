@@ -1,16 +1,16 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import styles from "../../../Styles/Styles";
 import { RxCross1 } from "react-icons/rx";
 import DropIn from "braintree-web-drop-in-react";
 import { toast } from "react-toastify";
-import {
-  CardCvcElement,
-  CardExpiryElement,
-  CardNumberElement,
-  useStripe,
-  useElements,
-} from "@stripe/react-stripe-js";
+// import {
+//   CardCvcElement,
+//   CardExpiryElement,
+//   CardNumberElement,
+//   useStripe,
+//   useElements,
+// } from "@stripe/react-stripe-js";
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
 import { clearCart } from "../../../Components/Redux/Reducers/CartItems";

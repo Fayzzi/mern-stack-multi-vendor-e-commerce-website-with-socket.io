@@ -1,13 +1,10 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { AiOutlineMessage } from "react-icons/ai";
 import { RxCross1 } from "react-icons/rx";
 import {
   AiFillHeart,
-  AiFillStar,
-  AiOutlineEye,
   AiOutlineHeart,
   AiOutlineShoppingCart,
-  AiOutlineStar,
 } from "react-icons/ai";
 import { useDispatch, useSelector } from "react-redux";
 import { Link } from "react-router-dom";

@@ -1,5 +1,4 @@
-import React, { useState } from "react";
-import { AiOutlineDelete } from "react-icons/ai";
+import { useState } from "react";
 import axios from "axios";
 import { toast } from "react-toastify";
 export default function ChangePassword() {

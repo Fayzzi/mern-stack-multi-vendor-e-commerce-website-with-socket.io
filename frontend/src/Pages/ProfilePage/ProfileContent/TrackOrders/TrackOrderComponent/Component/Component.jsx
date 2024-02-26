@@ -1,11 +1,10 @@
-import React from "react";
 import { useSelector } from "react-redux";
 import { useSearchParams } from "react-router-dom";
 
 export default function Component() {
   const [searchParams] = useSearchParams();
   const id = searchParams.get("order");
-  const { orders, orderLoading } = useSelector((state) => state.orders);
+  const { orders } = useSelector((state) => state.orders);
   const data = orders && orders.find((item) => item._id === id);
   if (!data) {
     return <div>No data to show!!</div>;

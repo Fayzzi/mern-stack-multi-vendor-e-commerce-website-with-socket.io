@@ -1,4 +1,3 @@
-import Footer from "../../../../Components/Layout/Footer/Footer";
 import ShopSettComponents from "./Components/ShopSettComponents";
 import DashboardHeader from "../../../../Components/Layout/Header/DashboardHeader";
 import DashboardSidebar from "../SideBar/DashboardSidebar";

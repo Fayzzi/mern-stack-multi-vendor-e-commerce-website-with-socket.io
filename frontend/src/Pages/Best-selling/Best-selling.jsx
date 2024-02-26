@@ -1,6 +1,5 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import Header from "../../Components/Layout/Header/Header";
-import { productData } from "../../static/data";
 import ProductCard from "../../Components/Layout/ProductCard/ProductCard";
 import { useSelector } from "react-redux";
 import Loader from "../../Components/Loader/Loader";

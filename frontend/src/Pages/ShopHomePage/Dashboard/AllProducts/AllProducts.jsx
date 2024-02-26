@@ -1,13 +1,9 @@
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 
-import { useDispatch, useSelector } from "react-redux";
-import { Link } from "react-router-dom";
-import { Button } from "@material-ui/core";
-import { AiOutlineDelete, AiOutlineEye } from "react-icons/ai";
+import { useSelector } from "react-redux";
 import AllProductComponent from "./Component/AllProductComponent";
 import DashboardSidebar from "../SideBar/DashboardSidebar";
 import DashboardHeader from "../../../../Components/Layout/Header/DashboardHeader";
-import { getAllProducts } from "../../../../Components/Redux/Reducers/ProductReducer";
 
 export default function AllProducts() {
   const { products } = useSelector((state) => state.products);

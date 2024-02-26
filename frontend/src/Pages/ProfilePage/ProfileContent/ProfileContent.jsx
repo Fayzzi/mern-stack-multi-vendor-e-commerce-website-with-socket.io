@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import  { useEffect, useState } from "react";
 import { AiOutlineCamera } from "react-icons/ai";
 import { useDispatch, useSelector } from "react-redux";
 import AllOrders from "./AllOrders/AllOrders";
@@ -7,9 +7,7 @@ import ChangePassword from "./PaymentMethod/PaymentMethods";
 import Address from "./Address/Address";
 import { updateUserData } from "../../../Components/Redux/Reducers/UserReducer";
 import { toast } from "react-toastify";
-import axios from "axios";
 import RefundOrders from "./RefundOrders/RefundOrders";
-import UserInbox from "./Inbox/userInbox";
 import { RxCross1 } from "react-icons/rx";
 export default function ProfileContent({ active }) {
   const { user, error } = useSelector((state) => state.user);

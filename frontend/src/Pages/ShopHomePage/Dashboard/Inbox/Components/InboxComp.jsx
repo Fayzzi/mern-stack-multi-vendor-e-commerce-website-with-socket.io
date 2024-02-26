@@ -1,6 +1,6 @@
 import axios from "axios";
-import React, { useEffect, useRef, useState } from "react";
-import { AiOutlineArrowRight, AiOutlineSend } from "react-icons/ai";
+import { useEffect, useRef, useState } from "react";
+import { AiOutlineSend } from "react-icons/ai";
 import { useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
 import { TfiGallery } from "react-icons/tfi";

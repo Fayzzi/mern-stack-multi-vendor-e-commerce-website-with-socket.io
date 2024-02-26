@@ -1,5 +1,5 @@
 import { Button } from "@material-ui/core";
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 import { AiOutlineDelete, AiOutlineEye } from "react-icons/ai";
 import Loader from "../../../../../Components/Loader/Loader";
 import { DataGrid } from "@material-ui/data-grid";

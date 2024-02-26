@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import CountDown from "../../../Components/CountDown/CountDown";
 import { Link } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";

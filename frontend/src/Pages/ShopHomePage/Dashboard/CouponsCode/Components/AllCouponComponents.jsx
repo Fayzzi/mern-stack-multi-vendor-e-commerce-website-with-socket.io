@@ -1,12 +1,11 @@
 import { Button } from "@material-ui/core";
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { AiOutlineDelete, AiOutlineEye } from "react-icons/ai";
 import Loader from "../../../../../Components/Loader/Loader";
 import { DataGrid } from "@material-ui/data-grid";
 import { Link } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import { RxCross1 } from "react-icons/rx";
-import { categoriesData } from "../../../../../static/data";
 import { clearErrorsofCoupon } from "../../../../../Components/Redux/Reducers/CouponsReducer";
 import {
   getAllCoupons,
@@ -14,7 +13,6 @@ import {
   uploadCoupon,
 } from "../../../../../Components/Redux/Reducers/CouponsReducer";
 import { toast } from "react-toastify";
-import axios from "axios";
 import { getAllProducts } from "../../../../../Components/Redux/Reducers/ProductReducer";
 export default function AllCouponComponents() {
   const { coupons, couponLoading, couponError, couponUploadSuccess } =

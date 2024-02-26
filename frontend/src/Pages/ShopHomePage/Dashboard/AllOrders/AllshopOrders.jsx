@@ -9,7 +9,7 @@ import { useEffect } from "react";
 import { getAllShopOrders } from "../../../../Components/Redux/Reducers/Allorders";
 
 export default function AllshopOrders() {
-  const { shoporderLoading, shoporders } = useSelector((state) => state.orders);
+  const { shoporders } = useSelector((state) => state.orders);
   const { seller } = useSelector((state) => state.seller);
 
   const dispatch = useDispatch();

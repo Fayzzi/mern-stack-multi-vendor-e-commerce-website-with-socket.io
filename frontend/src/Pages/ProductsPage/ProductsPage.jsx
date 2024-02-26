@@ -1,10 +1,8 @@
-import React, { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
+import { useEffect, useState } from "react";
 import Header from "../../Components/Layout/Header/Header";
 import { useSearchParams } from "react-router-dom";
-import { productData } from "../../static/data";
 import ProductCard from "../../Components/Layout/ProductCard/ProductCard";
-import { useDispatch, useSelector } from "react-redux";
+import { useSelector } from "react-redux";
 import Loader from "./../../Components/Loader/Loader";
 import Footer from "../../Components/Layout/Footer/Footer";
 import { motion } from "framer-motion";

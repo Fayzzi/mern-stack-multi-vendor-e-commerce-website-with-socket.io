@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { RxAvatar } from "react-icons/rx";
 import { AiOutlineEye, AiOutlineEyeInvisible } from "react-icons/ai";
 import { Link, useNavigate } from "react-router-dom";
@@ -8,7 +8,7 @@ import { useSelector } from "react-redux";
 import { motion } from "framer-motion";
 
 function SignUp() {
-  const { isAuthenticated, user } = useSelector((state) => state.user);
+  const { user } = useSelector((state) => state.user);
   const [email, setEmail] = useState("");
   const [name, setName] = useState("");
   const [Password, setPassword] = useState("");

@@ -1,7 +1,6 @@
-import React from "react";
-import axios from "axios";
+
 import {
-  AiOutlineCreditCard,
+  
   AiOutlineLogin,
   AiOutlineMessage,
 } from "react-icons/ai";
@@ -10,7 +9,6 @@ import { RxPerson } from "react-icons/rx";
 import { useNavigate } from "react-router-dom";
 import { MdOutlinePassword, MdOutlineTrackChanges } from "react-icons/md";
 import { TbAddressBook } from "react-icons/tb";
-import { toast } from "react-toastify";
 import { useDispatch } from "react-redux";
 import { LogoutUser } from "../../../Components/Redux/Reducers/UserReducer";
 export default function ProfileSliderBar({ active, setActive }) {

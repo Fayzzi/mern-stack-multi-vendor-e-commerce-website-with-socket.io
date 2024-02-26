@@ -1,5 +1,4 @@
-import React, { useEffect } from "react";
-import CountDown from "../../CountDown/CountDown";
+import { useEffect } from "react";
 import EventsCard from "../../../Pages/Events/EventsCard/EventsCard";
 import { useDispatch, useSelector } from "react-redux";
 import { getAllEventHomepage } from "../../Redux/Reducers/EventReducer";

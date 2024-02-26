@@ -1,4 +1,3 @@
-import React from "react";
 import Lottie from "react-lottie";
 import animationData from "./../../assets/Animations/Animation - 1706886028809.json";
 export default function LotieLoader() {

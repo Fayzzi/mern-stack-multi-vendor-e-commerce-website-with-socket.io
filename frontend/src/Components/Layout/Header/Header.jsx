@@ -1,13 +1,11 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { Link } from "react-router-dom";
-import { productData, categoriesData, navItems } from "./../../../static/data";
+import { categoriesData, navItems } from "./../../../static/data";
 import { IoIosArrowDown, IoIosArrowForward } from "react-icons/io";
-import { useDispatch, useSelector } from "react-redux";
+import { useSelector } from "react-redux";
 import {
-  AiFillAlert,
   AiOutlineHeart,
   AiOutlineSearch,
-  AiOutlineShop,
   AiOutlineShoppingCart,
 } from "react-icons/ai";
 import { CgProfile } from "react-icons/cg";

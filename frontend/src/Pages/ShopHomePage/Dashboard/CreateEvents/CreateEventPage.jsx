@@ -1,4 +1,3 @@
-import React from "react";
 import DashboardHeader from "../../../../Components/Layout/Header/DashboardHeader";
 import DashboardSidebar from "../SideBar/DashboardSidebar";
 import EventsFormComponent from "./EventsForm/EventsFormComponent";

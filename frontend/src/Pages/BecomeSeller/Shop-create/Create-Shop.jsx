@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 import { useState } from "react";
 import { AiOutlineEye, AiOutlineEyeInvisible } from "react-icons/ai";
 import { RxAvatar } from "react-icons/rx";
@@ -14,7 +14,6 @@ export default function CreateShop() {
   const [picture, setPicture] = useState(null);
   const [address, setAddress] = useState("");
   const [zip, setZip] = useState();
-  const [avatar, setavatar] = useState();
   const [visible, setVisible] = useState(false);
   const handelfile = (e) => {
     setPicture(e.target.files[0]);

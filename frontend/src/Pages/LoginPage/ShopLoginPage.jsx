@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import axios from "axios";
 import { toast } from "react-toastify";
@@ -7,7 +7,7 @@ import { AiOutlineEye, AiOutlineEyeInvisible } from "react-icons/ai";
 import { useDispatch, useSelector } from "react-redux";
 import { getSeller } from "../../Components/Redux/Reducers/SellerReducer";
 export default function ShopLoginPage() {
-  const { isSeller, seller } = useSelector((state) => state.seller);
+  const { isSeller } = useSelector((state) => state.seller);
   const [email, setEmail] = useState("");
   const [Password, setPassword] = useState("");
   const [visible, setVisible] = useState(false);

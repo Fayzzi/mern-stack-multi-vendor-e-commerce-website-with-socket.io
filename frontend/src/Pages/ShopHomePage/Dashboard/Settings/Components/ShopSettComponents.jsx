@@ -1,5 +1,5 @@
 import axios from "axios";
-import React, { useState } from "react";
+import { useState } from "react";
 import { AiOutlineCamera } from "react-icons/ai";
 import { useDispatch, useSelector } from "react-redux";
 import { toast } from "react-toastify";

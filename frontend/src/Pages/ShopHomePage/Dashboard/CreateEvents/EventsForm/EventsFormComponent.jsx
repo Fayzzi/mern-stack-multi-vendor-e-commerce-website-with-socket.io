@@ -1,10 +1,9 @@
-import React, { useEffect, useState } from "react";
+import  { useEffect, useState } from "react";
 import { AiOutlinePlus } from "react-icons/ai";
 import { useDispatch, useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
 import { toast } from "react-toastify";
 import { categoriesData } from "../../../../../static/data";
-import { uploadProduct } from "../../../../../Components/Redux/Reducers/ProductReducer";
 import {
   resetAll,
   uploadEvent,

@@ -1,6 +1,4 @@
-import axios from "axios";
-import React, { useEffect, useState } from "react";
-import { productData } from "../../../static/data";
+import { useEffect, useState } from "react";
 import ProductCard from "../ProductCard/ProductCard";
 import { useSelector } from "react-redux";
 import Loader from "../../Loader/Loader";

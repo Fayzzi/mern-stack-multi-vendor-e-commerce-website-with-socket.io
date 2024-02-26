@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { AiOutlineEye, AiOutlineMoneyCollect } from "react-icons/ai";
 import { MdBorderClear } from "react-icons/md";
 import { useDispatch, useSelector } from "react-redux";
@@ -12,8 +12,8 @@ import { CiBoxList } from "react-icons/ci";
 export default function DashboardHero() {
   const dispatch = useDispatch();
   const { seller } = useSelector((state) => state.seller);
-  const { shoporderLoading, shoporders } = useSelector((state) => state.orders);
-  const { products, productLoading } = useSelector((state) => state.products);
+  const { shoporders } = useSelector((state) => state.orders);
+  const { products } = useSelector((state) => state.products);
   const [deliveredProducts, setDeliveredProducts] = useState(null);
   useEffect(() => {
     dispatch(getAllProducts({ id: seller._id }));

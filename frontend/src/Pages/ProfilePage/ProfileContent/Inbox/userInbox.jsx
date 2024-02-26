@@ -1,12 +1,11 @@
 import { useEffect, useRef, useState } from "react";
 import Header from "../../../../Components/Layout/Header/Header";
-import Footer from "../../../../Components/Layout/Footer/Footer";
 import { useSelector } from "react-redux";
 import socketIO from "socket.io-client";
 import { format, isThisMonth, isToday, isYesterday } from "date-fns";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
-import { AiOutlineArrowRight, AiOutlineSend } from "react-icons/ai";
+import { AiOutlineSend } from "react-icons/ai";
 import { TfiGallery } from "react-icons/tfi";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 

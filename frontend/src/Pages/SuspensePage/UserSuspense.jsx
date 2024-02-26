@@ -1,4 +1,3 @@
-import React, { useEffect } from "react";
 import Header from "../../Components/Layout/Header/Header";
 import Footer from "../../Components/Layout/Footer/Footer";
 import Loader from "../../Components/Loader/Loader";

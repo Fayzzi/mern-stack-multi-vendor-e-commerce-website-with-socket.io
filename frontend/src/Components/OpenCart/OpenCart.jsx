@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { IoBagHandleOutline } from "react-icons/io5";
 import { RxCross1 } from "react-icons/rx";
 import { HiMinus, HiPlus } from "react-icons/hi";

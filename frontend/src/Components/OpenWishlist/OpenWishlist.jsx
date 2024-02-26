@@ -1,10 +1,5 @@
-import React from "react";
 import { useState } from "react";
-import { BiSolidCart } from "react-icons/bi";
-import { HiMinus, HiPlus } from "react-icons/hi";
-import { IoBagHandleOutline } from "react-icons/io5";
 import { RxCross1 } from "react-icons/rx";
-import { Link } from "react-router-dom";
 import { BsCartPlus } from "react-icons/bs";
 import { AiOutlineHeart } from "react-icons/ai";
 import { useDispatch, useSelector } from "react-redux";

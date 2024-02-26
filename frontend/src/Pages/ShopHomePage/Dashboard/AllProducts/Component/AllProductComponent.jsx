@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 import { Button } from "@material-ui/core";
 import { AiOutlineDelete, AiOutlineEye } from "react-icons/ai";
 import { useDispatch, useSelector } from "react-redux";

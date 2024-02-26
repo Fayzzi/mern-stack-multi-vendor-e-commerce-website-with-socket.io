@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 import Header from "../../Components/Layout/Header/Header";
 import EventsCard from "./EventsCard/EventsCard";
 import Footer from "../../Components/Layout/Footer/Footer";
